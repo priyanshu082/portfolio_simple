@@ -26,7 +26,7 @@ const AboutSection = () => {
       </div>
       <div className="mt-8 p-8 bg-primary-foreground border rounded-2xl">
         <div className="flex flex-col gap-y-2 text-w">
-          <span className="text-primary text-xl">Harsh Kumar Raghav</span>
+          <span className="text-primary text-xl">Priyanshu Singh</span>
           <div className="flex gap-x-2 flex-wrap">
             <Link
               href={"https://twitter.com/_Harsh_raghav_"}
@@ -34,11 +34,11 @@ const AboutSection = () => {
               onClick={() => AudioPlayer(ClickSrc)}
               target="_blank"
             >
-              <TwitterLogoIcon /> @_Harsh_raghav_
+              <TwitterLogoIcon /> @priyansh9874561
             </Link>
             <span className="text-primary">|</span>
-            IT <span className="text-primary">|</span> GBU{" "}
-            <span className="text-primary">|</span> Delhi
+          CSE <span className="text-primary">|</span> ZHCET,AMU{" "}
+            <span className="text-primary">|</span> Aligarh
           </div>
           <div className="w-full flex gap-x-2">
             <Badge
@@ -62,47 +62,28 @@ const AboutSection = () => {
           <p>
             Greetings, I am{" "}
             <span className="text-black dark:text-white">
-              Harsh Kumar Raghav
+              Priyanshu Singh
             </span>
-            , a dedicated Software Engineer from Delhi, India, with a relentless
+            , a dedicated Software Engineer from Aligarh, India, with a relentless
             passion for innovation and technological advancement. Currently
-            pursuing a Bachelor&apos;s degree in Information Technology from
-            Gautam Buddha University, I have maintained an impressive GPA of
-            8.2.
+            pursuing a Bachelor&apos;s degree in Computer Science Engineering from
+            Zakir Husain College of Engineering and Technology , I have maintained an impressive GPA of
+            8.026.
           </p>
           <br />
           <p>
-            My tech journey commenced in July 2020, joining{" "}
+            My tech journey commenced in Feb 2024, joining{" "}
             <span className="text-black dark:text-white">
-              Bots Fusion AI&apos;s{" "}
+              Paper Perfect Techno. 
             </span>
-            Core Development Team. At Bots Fusion AI, I played a pivotal role in
-            creating the Chatbot Builder Dashboard. Employing ReactFlow, I
-            designed a node-based UI, streamlining chatbot development. I
-            fortified the system against unauthorized access using Go fiber and
-            established a real-time conversation server using WebSockets,
-            enhancing chatbot responsiveness.
+             At Perfect Techno, I played a key role in enhancing the trading app's front-end. My primary focus was on building and refining the user interface for the trading application, ensuring it was responsive, intuitive, and aligned with modern design principles. This work contributed to a more robust and user-friendly trading platform for the company's clients. Additionally, I fixed several minor issues to improve the user experience and overall functionality.
           </p>
           <br />
           <p>
-            At <span className="text-black dark:text-white"> Mangodoc.ai</span>,
-            I led the development of a comprehensive contract and document
-            management system using React.js, Tailwind CSS, and Schadcn UI. As
-            Web Development Lead at{" "}
-            <span className="text-black dark:text-white">
-              Google Developer Student Club (GDSC)
-            </span>
-            , I organized workshops, guiding students in web and app
-            development.
-          </p>
-          <br />
-          <p>
-            I&apos;m also a writer, sharing insights on becoming a front-end
-            developer and GitHub management. Committed to innovation,
-            collaborative problem-solving, and mentorship, I&apos;m ready to
-            make a lasting impact in software engineering. Excited to drive
-            change and contribute further.
-          </p>
+  At <span className="text-black dark:text-white">Reelkart</span>, I am currently engaged in an ongoing internship where I focus on front-end development. My primary responsibility has been building a dynamic landing page with an engaging and responsive user interface. I am utilizing modern web technologies to create a visually appealing design that adapts seamlessly across various devices and screen sizes. This project aims to enhance the company's online presence and improve user engagement with the platform.
+</p>
+         
+          
         </div>
       </div>
     </div>

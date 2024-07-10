@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import ThemeProviders from "@/Providers/ThemeProvider";
 import { SoundProvider } from "@/Providers/SoundProvider";
 export const metadata: Metadata = {
-  title: "Harsh K. Raghav",
+  title: "Priyanshu Singh",
   description:
-    "Software Engineer, Full Stack Developer, Go, React.js, and Next.js enthusiast",
+    "Software Engineer, Full Stack Developer, React.js, and Next.js enthusiast",
   icons: {
     icon: "/logo/logo.png",
   },

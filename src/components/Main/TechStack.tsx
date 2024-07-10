@@ -5,7 +5,6 @@ import { Badge } from "../ui/badge";
 import {
   BiLogoBaidu,
   BiLogoGithub,
-  BiLogoGoLang,
   BiLogoJavascript,
   BiLogoMongodb,
   BiLogoNetlify,
@@ -14,7 +13,8 @@ import {
   BiLogoTypescript,
   BiLogoVisualStudio,
 } from "react-icons/bi";
-import { TbBrandGolang, TbBrandNextjs } from "react-icons/tb";
+import { SiCplusplus,SiNodedotjs, SiExpress,SiDigitalocean } from "react-icons/si";
+import {  TbBrandNextjs } from "react-icons/tb";
 import { SiPostman, SiRailway, SiRender, SiVercel } from "react-icons/si";
 import { useSound } from "@/Hooks/Sound/useSound";
 const TechStack = () => {
@@ -58,8 +58,8 @@ const TechStack = () => {
               onMouseEnter={() => AudioPlayer(AudioSrc)}
               className="text-white z-10"
             >
-              <BiLogoGoLang size={25} />
-              <span className="pl-2">Golang</span>
+              <SiCplusplus size={25} />
+              <span className="pl-2">C++</span>
             </Badge>
           </CardContent>
         </Card>
@@ -82,27 +82,9 @@ const TechStack = () => {
               <TbBrandNextjs size={25} />
               <span className="pl-2">Next.js</span>
             </Badge>
-            <Badge
-              onMouseEnter={() => AudioPlayer(AudioSrc)}
-              className="text-white z-10"
-            >
-              <BiLogoReact size={25} />
-              <span className="pl-2">React Native</span>
-            </Badge>
-            <Badge
-              onMouseEnter={() => AudioPlayer(AudioSrc)}
-              className="text-white z-10"
-            >
-              <TbBrandGolang size={25} />
-              <span className="pl-2">Gin-Gonic</span>
-            </Badge>
-            <Badge
-              onMouseEnter={() => AudioPlayer(AudioSrc)}
-              className="text-white z-10"
-            >
-              <TbBrandGolang size={25} />
-              <span className="pl-2">Go Fiber</span>
-            </Badge>
+           
+            
+            
             <Badge
               onMouseEnter={() => AudioPlayer(AudioSrc)}
               className="text-white z-10"
@@ -116,6 +98,20 @@ const TechStack = () => {
             >
               <BiLogoBaidu size={25} />
               <span className="pl-2">SchadCn UI</span>
+            </Badge>
+            <Badge
+              onMouseEnter={() => AudioPlayer(AudioSrc)}
+              className="text-white z-10"
+            >
+              <SiExpress size={25} />
+              <span className="pl-2">Express.js</span>
+            </Badge>
+            <Badge
+              onMouseEnter={() => AudioPlayer(AudioSrc)}
+              className="text-white z-10"
+            >
+              <SiNodedotjs size={25} />
+              <span className="pl-2">Node.js</span>
             </Badge>
           </CardContent>
         </Card>
@@ -178,14 +174,14 @@ const TechStack = () => {
               className="text-white z-10"
             >
               <SiRailway size={25} />
-              <span className="pl-2">Railway</span>
+              <span className="pl-2">Bluehost.in</span>
             </Badge>
             <Badge
               onMouseEnter={() => AudioPlayer(AudioSrc)}
               className="text-white z-10"
             >
-              <SiRender size={25} />
-              <span className="pl-2">Render</span>
+              <SiDigitalocean size={25} />
+              <span className="pl-2">DigitalOcean</span>
             </Badge>
           </CardContent>
         </Card>

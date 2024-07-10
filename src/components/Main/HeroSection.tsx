@@ -60,14 +60,14 @@ const HeroSection = () => {
       <div className="w-full h-2/3 md:h-2/4 flex mt-12 items-center justify-evenly flex-col gap-y-2">
         <div className="text-3xl font-bold text-center">
           <span className="text-xl"> Hi,👋 I&apos;m</span>
-          <h1 className="text-primary typewriter__heading">Harsh K. Raghav</h1>
+          <h1 className="text-primary typewriter__heading">Priyanshu Singh</h1>
           <span className=" text-lg font-semibold ">
             &quot;I build things for the web.&quot;
           </span>
         </div>
         <div className="flex gap-x-4">
           <Link
-            href={"https://twitter.com/_Harsh_raghav_"}
+            href={"https://x.com/priyansh9874561"}
             onClick={() => AudioPlayer(ClickSrc)}
             target="_blank"
             className="p-2 bg-primary rounded-lg text-white transform transition-transform hover:scale-110"
@@ -75,7 +75,7 @@ const HeroSection = () => {
             <TwitterLogoIcon />
           </Link>
           <Link
-            href={"https://www.linkedin.com/in/harsh-kumar-raghav-7285311b9/"}
+            href={"https://www.linkedin.com/in/priyanshu-singh-a81975253/"}
             onClick={() => AudioPlayer(ClickSrc)}
             target="_blank"
             className="p-2 bg-primary rounded-lg text-white transform transition-transform hover:scale-110"
@@ -83,7 +83,7 @@ const HeroSection = () => {
             <LinkedInLogoIcon />
           </Link>
           <Link
-            href={"mailto:raghavharsh068@gmial.com"}
+            href={"mailto:priyanshusingh216@gmail.com"}
             onClick={() => AudioPlayer(ClickSrc)}
             target="_blank"
             className="p-2 bg-primary rounded-lg text-white transform transition-transform hover:scale-110"
@@ -93,8 +93,8 @@ const HeroSection = () => {
         </div>
         <p className="text-center text-gray-500 dark:text-white">
           Tech-savvy problem-solver with a passion for coding and a love for
-          innovation. Proficient in Javascript, TypeScript, Go, Next JS,
-          ReactJS, React Native and go-fiber, Bringing a unique blend of
+          innovation. Proficient in Javascript, TypeScript, Next JS,
+          ReactJS. Bringing a unique blend of
           technical and creative skills to develop robust and visually appealing
           solutions.
         </p>
@@ -103,7 +103,7 @@ const HeroSection = () => {
             <Link
               onMouseEnter={() => AudioPlayer(HoverSrc)}
               className="flex items-center justify-center gap-x-2 text-white"
-              href="/Resume/HarshResume.pdf"
+              href="/Resume/PriyanshuResume.pdf"
               target="_blank"
               onMouseDown={() => AudioPlayer(ClickSrc)}
             >
@@ -115,7 +115,7 @@ const HeroSection = () => {
             onMouseEnter={() => AudioPlayer(HoverSrc)}
             className="flex items-center justify-center gap-x-2 "
             variant={"outline"}
-            onClick={() => window.open("https://github.com/HarshKumarraghav")}
+            onClick={() => window.open("https://github.com/priyanshu082")}
             onMouseDown={() => AudioPlayer(ClickSrc)}
           >
             <GitHubLogoIcon />
