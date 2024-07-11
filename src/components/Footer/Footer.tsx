@@ -8,21 +8,21 @@ const Footer = () => {
     <div className="w-full py-3 flex flex-col justify-center items-center header__blur mt-8 px-4 ">
       <div className="flex gap-x-4 my-3">
         <Link
-          href={"https://twitter.com/_Harsh_raghav_"}
+          href={"https://x.com/priyansh9874561"}
           target="_blank"
           className="p-2 bg-primary rounded-lg text-white transform transition-transform hover:scale-110"
         >
           <TwitterLogoIcon />
         </Link>
         <Link
-          href={"https://www.linkedin.com/in/harsh-kumar-raghav-7285311b9/"}
+          href={"https://www.linkedin.com/in/priyanshu-singh-a81975253/"}
           target="_blank"
           className="p-2 bg-primary rounded-lg text-white transform transition-transform hover:scale-110"
         >
           <LinkedInLogoIcon />
         </Link>
         <Link
-          href={"mailto:raghavharsh068@gmial.com"}
+          href={"mailto:priyanshusingh216@gmail.com"}
           target="_blank"
           className="p-2 bg-primary rounded-lg text-white transform transition-transform hover:scale-110"
         >
@@ -30,9 +30,9 @@ const Footer = () => {
         </Link>
       </div>
       <p className="text-sm text-center">
-        <span>Designed & Built by Harsh K. Raghav</span>
+        <span>Designed & Built by Priyanshu Singh </span>
         <br />
-        <span>© 2023</span> All rights reserved.
+        <span>© 2024</span> All rights reserved.
       </p>
     </div>
   );

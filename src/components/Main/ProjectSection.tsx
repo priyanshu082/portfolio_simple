@@ -12,118 +12,165 @@ import { ExternalLinkIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Button } from "../ui/button";
 import Image from "next/image";
 import { Badge } from "../ui/badge";
-import { SiAuth0, SiMysql, SiOpenai, SiPrisma } from "react-icons/si";
-import {
-  BiLogoJavascript,
-  BiLogoReact,
-  BiLogoTypescript,
-} from "react-icons/bi";
-import { TbBrandGolang, TbBrandNextjs } from "react-icons/tb";
 import { useSound } from "@/Hooks/Sound/useSound";
+import { BiLogoReact, BiLogoTypescript, BiLogoJavascript } from "react-icons/bi";
+import { TbBrandNextjs, TbBrandGolang } from "react-icons/tb";
+import { SiMongodb, SiSocketdotio, SiTailwindcss, SiNodedotjs, SiExpress, SiGreensock } from "react-icons/si";
+
+
+
 const PROJECT_DATA = [
   {
-    title:
-      "Infinimind.ai - AI-powered Chatbot, Code, Video, Music, and Image Generation",
-    description: `Infinimind.ai the ultimate destination where human creativity intersects with the power of artificial intelligence. Unleash the full potential of your imagination and bring your ideas to life in ways you've never imagined. With its cutting-edge features, Infinimind.ai stands out as a pioneer in the world of AI-powered creativity.`,
-    details: `Infinimind.ai the ultimate destination where human creativity intersects with the power of artificial intelligence. Unleash the full potential of your imagination and bring your ideas to life in ways you've never imagined. With its cutting-edge features,Infinimind.ai stands out as a pioneer in the world of AI-powered creativity. Engage in captivating conversations with our advanced AI chatbot, which not only responds intelligently but learns from you, adapting its interactions to your unique style. Need to generate code? Let our cutting-edge AI algorithms instantly craft code snippets, revolutionizing your development process.`,
+    title: "Periodix - Interactive Periodic Table",
+    description: `Periodix is an interactive periodic table application providing detailed information on each element.`,
+    details: `Periodix is a user-friendly web application that showcases the entire periodic table with detailed information about each element. The application is designed to help students and chemistry enthusiasts learn more about the periodic elements in an engaging and interactive manner.`,
     techStack: [
       {
         name: "React.js",
         icon: <BiLogoReact size={25} />,
       },
       {
-        name: "Next.js",
-        icon: <TbBrandNextjs size={25} />,
-      },
-      {
-        name: "TypeScript",
-        icon: <BiLogoTypescript size={25} />,
-      },
-      {
-        name: "NextAuth",
-        icon: <SiAuth0 size={25} />,
-      },
-      {
-        name: "MySQL",
-        icon: <SiMysql size={25} />,
-      },
-      {
-        name: "PrismaORM",
-        icon: <SiPrisma size={25} />,
-      },
-      {
-        name: "OpenAI",
-        icon: <SiOpenai size={25} />,
+        name: "Tailwind CSS",
+        icon: <SiTailwindcss size={25} />,
       },
     ],
-    imageSrc: "/projects/infinimind-poster.png",
-    githubLink: "https://github.com/HarshKumarraghav/InfiniMind.ai",
-    liveLink: "https://infinimind.harshraghav.tech/",
+    imageSrc: "/projects/periodix.png",
+    videosrc: "/projects/periodix.mp4",
+    githubLink: "https://github.com/priyanshu082/periodix",
+    liveLink: "https://periodix-chi.vercel.app/",
   },
   {
-    title: "Balloon.js : Create-balloon CLI (npx create-balloon@latest)",
-    description: `Balloon.js is a Flexible command-line tool that Seamlessly integrated major frameworks like Next.js, React, Vue, Preact, Svelte, Solid, and Qwik for enhanced project flexibility. `,
-    details: `Create-balloon CLI is a versatile and powerful command-line tool that empowers developers to effortlessly generate state-of-the-art application starter kits for a wide range of modern frontend frameworks and UI libraries. Whether you're building applications using Next.js, React, Vue, Preact, Svelte, Solid, Qwik, or other popular frameworks, Create-balloon CLI has got you covered. It offers seamless integration with essential UI libraries like Tailwind, Tailwind + SchadCn UI, ChakraUI, AntDesign, and MaterialUI, allowing you to kickstart your project with stunning visual design and exceptional user experiences.`,
+    title: "Drone App - Full-Stack E-commerce Website",
+    description: `A full-stack e-commerce website for a drone company with a responsive UI and an admin panel for product management.`,
+    details: `The Drone App is a comprehensive e-commerce platform designed for a drone company. It features a responsive user interface built with React and Tailwind CSS. The backend is powered by Express.js and Node.js, offering robust RESTful API services. Additionally, the app includes an admin panel for managing products through CRUD operations, enhancing the overall user and admin experience.`,
     techStack: [
+      {
+        name: "React.js",
+        icon: <BiLogoReact size={25} />,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: <SiTailwindcss size={25} />,
+      },
       {
         name: "Node.js",
-        icon: <BiLogoJavascript size={25} />,
+        icon: <SiNodedotjs size={25} />,
       },
       {
-        name: "TypeScript",
-        icon: <BiLogoTypescript size={25} />,
+        name: "Express.js",
+        icon: <SiExpress size={25} />,
+      },
+      {
+        name: "MongoDB",
+        icon: <SiMongodb size={25} />,
       },
     ],
-    imageSrc: "/projects/balloon-poster.png",
-    githubLink: "https://github.com/HarshKumarraghav/balloon.js",
-    liveLink: "https://www.npmjs.com/package/create-balloon",
+    imageSrc: "/projects/peryton.png",
+    videosrc: "",
+    githubLink: "https://github.com/priyanshu082/drone-app",
+    liveLink: "https://app.peryton.in",
   },
   {
-    title: "Periodically - The Periodic Table",
-    description: `Periodically - is a free web application which displays the entire Periodic Table at startup interface. The table has a long- form approved by the International Union of Pure and Applied Chemistry (IUPAC) as the core.`,
-    details: `We all remember the times when we used to struggle to remember the names, properties, groups, etc. of periodic elements. Those sweet-saur nostalgic school memories of memorizing the whole periodic table for our upcoming Unit test used to be a nightmare for many of us! The periodic table is the heart of chemistry and to make its learning more fun and engaging, the idea to build "Periodically-The Periodic Table" was born.`,
+    title: "AUV ZHCET Website",
+    description: `Website for AUV ZHCET club with advanced animations and detailed information display.`,
+    details: `Developed the AUV ZHCET website to showcase the club's projects and activities with rich animations and a responsive design. Utilized Next.js for server-side rendering and routing, GSAP for creating engaging animations, and Tailwind CSS for the styling.`,
     techStack: [
-      {
-        name: "React.js",
-        icon: <BiLogoReact size={25} />,
-      },
       {
         name: "Next.js",
         icon: <TbBrandNextjs size={25} />,
       },
       {
-        name: "Javascipt",
-        icon: <BiLogoJavascript size={25} />,
+        name: "GSAP",
+        icon: <SiGreensock size={25} />,
       },
       {
-        name: "GoLang",
-        icon: <TbBrandGolang size={25} />,
+        name: "Tailwind CSS",
+        icon: <SiTailwindcss size={25} />,
       },
     ],
-
-    imageSrc: "/projects/Periodically-poster.gif",
-    githubLink: "https://github.com/HarshKumarraghav/periodically",
-    liveLink: "https://periodically-webapp-harshkumarraghav.vercel.app/",
+    imageSrc: "/projects/auv.png",
+    videosrc: "/projects/auv.mp4",
+    githubLink: "https://github.com/priyanshu082/auv-website",
+    liveLink: "https://auv-website-mu.vercel.app/",
   },
   {
-    title: "cryptoverse - Cryptocurrency App",
-    description: `Cryptoverse: Your all-in-one crypto companion. Explore 200+ cryptos, interactive charts, currency converter, news, and portfolio tracking. Powered by React.js, Tailwind CSS, CoinGecko API, Bing News API, and Shcadcn UI.`,
-    details: `Cryptoverse is an innovative and user-friendly web application designed to cater to cryptocurrency enthusiasts and investors alike. With a vast database comprising details of over 200 cryptocurrencies and information on 50 different country currencies, Cryptoverse offers a one-stop platform for all your cryptocurrency-related needs. Whether you are a beginner exploring the world of digital assets or an experienced investor seeking in-depth analysis and real-time data, Cryptoverse has you covered.`,
+    title: "Promptopia - AI Prompt Sharing and Management",
+    description: `Promptopia is a full-stack application for sharing and managing AI prompts with CRUD operations.`,
+    details: `Promptopia is a comprehensive platform for AI prompt sharing and management. Users can create, read, update, and delete AI prompts, fostering a collaborative environment for AI enthusiasts. The application ensures smooth performance and an intuitive user experience.`,
+    techStack: [
+      {
+        name: "Next.js",
+        icon: <TbBrandNextjs size={25} />,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: <SiTailwindcss size={25} />,
+      },
+      {
+        name: "MongoDB",
+        icon: <SiMongodb size={25} />,
+      },
+      {
+        name: "Express.js",
+        icon: <SiExpress size={25} />,
+      },
+      {
+        name: "Node.js",
+        icon: <SiNodedotjs size={25} />,
+      },
+
+    ],
+    imageSrc: "/projects/promptopia.png",
+    videosrc: "",
+    githubLink: "https://github.com/priyanshu082/promptopia",
+    liveLink: "https://promptopia-beta-two.vercel.app/",
+  }, 
+  {
+    title: "YouTube Clone - Video Streaming Platform",
+    description: `A responsive YouTube clone built using React and YouTube API integration.`,
+    details: `This YouTube clone mimics the core functionalities of YouTube, providing a seamless video streaming experience. Users can search for videos, view recommendations, and watch their favorite content with ease. The integration with the YouTube API ensures up-to-date content and accurate video data.`,
     techStack: [
       {
         name: "React.js",
         icon: <BiLogoReact size={25} />,
       },
       {
-        name: "TypeScript",
-        icon: <BiLogoTypescript size={25} />,
+        name: "Tailwind CSS",
+        icon: <SiTailwindcss size={25} />,
       },
+
     ],
-    imageSrc: "/projects/cryptoverse-poster.png",
-    githubLink: "https://github.com/HarshKumarraghav/Cryptoverse",
-    liveLink: "https://periodically-webapp-harshkumarraghav.vercel.app/",
+    imageSrc: "/projects/youtube.png",
+    videosrc: "",
+    githubLink: "https://github.com/priyanshu082/youtube_clone",
+    liveLink: "https://youtube-clone-hazel-chi.vercel.app/",
   },
+  // {
+  //   title: "Chat App - Real-Time Chatting Application",
+  //   description: `A real-time chatting application with group chat and profile editing features.`,
+  //   details: `The Chat App is a real-time messaging platform that allows users to engage in group chats, send messages instantly, and edit their profiles. Built using modern web technologies, it ensures a fast and reliable communication experience.`,
+  //   techStack: [
+  //     {
+  //       name: "Next.js",
+  //       icon: <TbBrandNextjs size={25} />,
+  //     },
+  //     {
+  //       name: "MongoDB",
+  //       icon: <SiMongodb size={25} />,
+  //     },
+  //     {
+  //       name: "Socket.io",
+  //       icon: <SiSocketdotio size={25} />,
+  //     },
+
+  //   ],
+  //   imageSrc: "/projects/chat-app-poster.png",
+  //   githubLink: "https://github.com/priyanshu082/chatting-app",
+  //   liveLink: "https://chat-app.live",
+  // },
 ];
+
+
 const ProjectSection = () => {
   const { soundEnabled } = useSound();
   const HoverSrc = "/Audio/tap.mp3";
@@ -173,13 +220,24 @@ const ProjectSection = () => {
             </CardHeader>
             <CardContent className="mt-8 border-b">
               <div className="w-full flex justify-center ">
-                <Image
+                {!project.videosrc ?  ( <Image
                   src={project.imageSrc}
                   alt="Periodically"
-                  width={500}
-                  height={500}
-                  className="rounded-lg glow__background"
+                  width={1000}
+                  height={1000}
+                  loading="lazy"
+                  className="rounded-lg glow__background hover:scale-110 transition-all duration-500 ease-linear"
+                />):(
+                <video
+                  src={project.videosrc}
+                  width={1000}
+                  height={1000}
+                  className="rounded-lg hover:scale-[115%] transition-all duration-500 ease-linear"
+                  autoPlay muted loop
+                  preload="metadata"
                 />
+                )}
+                
               </div>
               <p className="mt-8 ">{project.details}</p>
             </CardContent>
