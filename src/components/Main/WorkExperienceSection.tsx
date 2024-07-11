@@ -106,7 +106,7 @@ const WorkExperienceSection = () => {
             </CardHeader>
             <CardContent>
               <p className="mb-4 text-base font-normal ">
-                Organized and conducted several App and Web development workshops, contributing to the development of students' skills in creating both web and mobile applications.
+                Organized and conducted several App and Web development workshops, contributing to the development of student&apos;s skills in creating both web and mobile applications.
               </p>
             </CardContent>
           </Card>
