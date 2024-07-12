@@ -71,6 +71,29 @@ const PROJECT_DATA = [
     liveLink: "https://app.peryton.in",
   },
   {
+    title: "ReelKart - E-commerce Platform",
+    description: `ReelKart is an innovative e-commerce platform designed for the seamless purchase and sale of goods. It utilizes modern web technologies to offer a dynamic and responsive user experience.`,
+    details: `As a Front End Developer at ReelKart, I developed and implemented the dynamic frontend of the platform using Next.js, leveraging its features for server-side rendering, routing, and optimized performance. The user interfaces were built with React components to ensure responsiveness and interactivity.`,
+    techStack: [
+      {
+        name: "Next.js",
+        icon: <TbBrandNextjs size={25} />,
+      },
+      {
+        name: "React.js",
+        icon: <BiLogoReact size={25} />,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: <SiTailwindcss size={25} />,
+      },
+    ],
+    imageSrc: "/projects/reelkart-poster.png",
+    videosrc:"/projects/reelkart.mp4",
+    githubLink: "https://github.com/priyanshu082/reelkart",
+    liveLink: "https://reelkart.io/",
+  },
+  {
     title: "AUV ZHCET Website",
     description: `Website for AUV ZHCET club with advanced animations and detailed information display.`,
     details: `Developed the AUV ZHCET website to showcase the club's projects and activities with rich animations and a responsive design. Utilized Next.js for server-side rendering and routing, GSAP for creating engaging animations, and Tailwind CSS for the styling.`,
