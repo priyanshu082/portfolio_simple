@@ -13,7 +13,7 @@ import { Button } from "../ui/button";
 import Image from "next/image";
 import { Badge } from "../ui/badge";
 import { useSound } from "@/Hooks/Sound/useSound";
-import { BiLogoReact, BiLogoTypescript, BiLogoJavascript } from "react-icons/bi";
+import { BiLogoReact, BiLogoTypescript, BiLogoJavascript, BiMoney } from "react-icons/bi";
 import { TbBrandNextjs, TbBrandGolang } from "react-icons/tb";
 import { SiMongodb, SiSocketdotio, SiTailwindcss, SiNodedotjs, SiExpress, SiGreensock } from "react-icons/si";
 
@@ -38,6 +38,29 @@ const PROJECT_DATA = [
     videosrc: "/projects/periodix.mp4",
     githubLink: "https://github.com/priyanshu082/periodix",
     liveLink: "https://periodix-chi.vercel.app/",
+  },
+  {
+    title: "Board Management System",
+    description: `A comprehensive platform to streamline educational board operations, from institute registration to student result access.`,
+    details: `This system enables institutes to register under a central board and manage student enrollments through multi-step forms with validations. Payment gateways are integrated for both institutes and students. It includes dedicated dashboards for institutes (to register students), students (to view results and manage their credentials), and an admin panel for board members to oversee all activities. The platform also supports course-subject mapping, credential-based logins, and automated email notifications.`,
+    techStack: [
+      {
+        name: "React.js",
+        icon: <BiLogoReact size={25} />,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: <SiTailwindcss size={25} />,
+      },
+      {
+        name: "Payment Gateway APIs",
+        icon: <BiMoney size={25} />, // substitute with a relevant icon if you have one
+      },
+    ],
+    imageSrc: "/projects/sbcodl.png", // Replace with your actual image path
+    videosrc: "/projects/sbcodl.mov",  // Replace with your actual video path
+    githubLink: "https://github.com/priyanshu082/solanki_boards", // Replace with actual link
+    liveLink: "https://www.sbiea.co.in/", // Replace with actual live URL
   },
   {
     title: "Drone App - Full-Stack E-commerce Website",
