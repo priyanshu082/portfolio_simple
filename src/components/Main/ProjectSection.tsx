@@ -114,7 +114,7 @@ const PROJECT_DATA = [
     imageSrc: "/projects/reelkart-poster.png",
     videosrc:"/projects/reelkart.mp4",
     githubLink: "https://github.com/priyanshu082/reelkart",
-    liveLink: "https://reelkart.io/",
+    liveLink: "https://reelkart-two.vercel.app/",
   },
   {
     title: "AUV ZHCET Website",
